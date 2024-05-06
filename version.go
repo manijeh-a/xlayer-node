@@ -15,7 +15,7 @@ var (
 )
 
 // PrintVersion prints version info into the provided io.Writer.
-func PrintVersion(w io.Writer) {
+func PrintVersion1(w io.Writer) {
 	fmt.Fprintf(w, "Version:      %s\n", Version)
 	fmt.Fprintf(w, "Git revision: %s\n", GitRev)
 	fmt.Fprintf(w, "Git branch:   %s\n", GitBranch)
